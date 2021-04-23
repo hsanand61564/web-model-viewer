@@ -1,0 +1,18 @@
+.imodelbusy__centered {
+  color: var(--buic-foreground-body-rgb, 0, 0, 0);
+  text-align: center;
+}
+.imodelbusy__centered .imodelbusy__loadingTitle {
+  font-weight: bold;
+}
+.imodelbusy__centered .imodelbusy__loadingText {
+  height: 50px;
+  margin-top: 12px;
+}
+.imodelbusy__centered .imodelbusy__contents {
+  display: inline-block;
+  width: 400px;
+}
+.imodelbusy__centered .imodelbusy__contents .ls-message-top {
+  color: #000 !important;
+}

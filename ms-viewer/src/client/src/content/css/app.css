@@ -1,0 +1,9 @@
+body{
+    margin: 0 !important;
+}
+
+
+.home {
+    height: calc(100vh - 50px);
+  }
+  
