@@ -9,7 +9,6 @@ import { IModelBackendOptions, Viewer } from "../viewer/index";
 import { ColorTheme } from "@bentley/ui-framework";
 import React, { useEffect, useState } from "react";
 import { RenderMode } from "@bentley/imodeljs-common";
-import { GeometryDecorator } from "../decorators/GeometryDecorator";
 import { ErrorBoundary } from "./ErrorBoundary/ErrorBoundary";
 export const AuthClientHome: React.FC = () => {
 
