@@ -30,7 +30,6 @@
     },
     "dependencies": {
         "@bentley/extension-client": "^2.14.2",
-        "@bentley/frontend-application-insights-client": "^2.14.2",
         "@bentley/icons-generic": "^1.0.13",
         "@bentley/backend-itwin-client": "2.14.2",
         "@bentley/bentleyjs-core": "2.14.2",
@@ -46,7 +45,6 @@
         "@bentley/imodeljs-native": "2.14.2",
         "@bentley/imodeljs-quantity": "^2.14.2",
         "@bentley/itwin-client": "2.14.2",
-        "@bentley/itwin-viewer-react": "^6.2.1",
         "@bentley/orbitgt-core": "^2.14.2",
         "@bentley/presentation-backend": "2.14.2",
         "@bentley/presentation-common": "^2.14.2",

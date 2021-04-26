@@ -27,7 +27,6 @@ import {
   SyncUiEventDispatcher,
   UiFramework,
 } from "@bentley/ui-framework";
-import { withAITracking } from "@microsoft/applicationinsights-react-js";
 import React, { useEffect, useState } from "react";
 import { Provider } from "react-redux";
 

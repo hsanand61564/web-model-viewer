@@ -5,7 +5,6 @@
 
 import { ClientRequestContext } from "@bentley/bentleyjs-core";
 import { Config } from "@bentley/bentleyjs-core";
-import { FrontendApplicationInsightsClient } from "@bentley/frontend-application-insights-client";
 import {
   BentleyCloudRpcParams,
   RpcInterface,
@@ -209,14 +208,6 @@ class Initializer {
         // execute the iModelApp initialization callback if provided
         if (viewerOptions?.onIModelAppInit) {
           viewerOptions.onIModelAppInit();
-        }
-
-        // Add iModelJS ApplicationInsights telemetry client if a key is provided
-        if (viewerOptions?.imjsAppInsightsKey) {
-          const imjsApplicationInsightsClient = new FrontendApplicationInsightsClient(
-            viewerOptions.imjsAppInsightsKey
-          );
-          IModelApp.telemetry.addClient(imjsApplicationInsightsClient);
         }
         // initialize localization for the app
         const viewerNamespace = "iTwinViewer";
