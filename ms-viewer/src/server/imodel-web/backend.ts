@@ -130,5 +130,5 @@ export async function initializeBackend(): Promise<void> {
 
   await IModelHost.startup(hostConfig);
 
-  IModelHost.tileCacheService = new FakeTileCacheService(path.normalize(path.join(__dirname, "..", "..", "build")));
+  IModelHost.tileCacheService = new FakeTileCacheService(path.normalize(path.join(__dirname, "..", "..", "build","tiles")));
 }
